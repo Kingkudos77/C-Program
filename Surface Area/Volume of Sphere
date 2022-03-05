@@ -1,0 +1,32 @@
+  
+#include <iostream>
+#include <cmath> 
+#include <iomanip>
+   
+using namespace std;
+
+
+int main()
+{
+    const double PI = 3.14159; //holds value for PI
+    double r; // holds the value for radius of a sphere
+
+    cout << fixed << showpoint << setprecision(2);
+
+    cout << sqrt(PI);
+    cout << endl;
+
+
+    cout << "Input the radius of a sphere: ";
+    cin >> r;
+    cout << endl;
+
+    cout << "Surface area of the sphere: 4 * PI * 4.00 ^ 2 " << 4.00 * PI * pow(r, 2);
+    cout << endl;
+    cout << "Volume of the sphere: 4 / 3 * PI * 4.00 ^ 3 " << (4.00/3.00) * PI * pow(r, 3);
+
+
+
+
+
+}
